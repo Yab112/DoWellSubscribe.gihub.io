@@ -1,5 +1,6 @@
 import { FaArrowRight } from "react-icons/fa";
 import SubscribersCard from "./SubscribersCard";
+import user from "../../../public/user.jpg"
 
 const OurSubscribers = () => {
   return (
@@ -23,28 +24,28 @@ const OurSubscribers = () => {
           email="****@gmail.com"
           date="12/3/2024"
           status="active"
-          avatar="/user.jpg"
+          avatar={user}
         />
         <SubscribersCard
           name="yabibal"
           email="****@gmail.com"
           date="12/3/2024"
           status="active"
-          avatar="/user.jpg"
+          avatar={user}
         />
         <SubscribersCard
           name="yabibal"
           email="****@gmail.com"
           date="12/3/2024"
           status="active"
-          avatar="/user.jpg"
+          avatar={user}
         />
         <SubscribersCard
           name="yabibal"
           email="****@gmail.com"
           date="12/3/2024"
           status="active"
-          avatar="/user.jpg"
+          avatar={user}
         />
         <SubscribersCard
           name="yabibal"

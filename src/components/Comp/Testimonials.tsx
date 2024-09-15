@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import ClientCard from "./ClientCard";
+import user from "../../../public/user.jpg"
 
 const Testimonials = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -67,7 +68,7 @@ const Testimonials = () => {
           <ClientCard
             key={index}
             name="Nardos Teshome"
-            image="./public/user.jpg"
+            image={user}
             description="The DoWell Newsletter is the first thing I check in the morning. It's concise, informative, and always highlights the most important news. It’s like having a personal news assistant!"
             header="It was a very good experieance"
             link="http://google.com"

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaCalendar, FaClock, FaEllipsisH } from "react-icons/fa";
 import { CalendarDays } from "lucide-react";
+import user from "../../../public/user.jpg"
 
 import {
   Avatar,
@@ -72,7 +73,7 @@ const ArticleCard: React.FC<CardProps> = ({
             <HoverCard>
               <HoverCardTrigger asChild>
                 <img
-                  src="/user.jpg"
+                  src={user}
                   alt={authorName}
                   className="w-8 h-8 rounded-full object-cover"
                 />

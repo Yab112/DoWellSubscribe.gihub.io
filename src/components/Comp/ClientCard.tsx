@@ -1,6 +1,5 @@
 import { FaStar } from "react-icons/fa"
 import { cn } from "../../lib/utils"
-
 interface Props {
   name?:string
   image?:string,
@@ -10,9 +9,9 @@ interface Props {
   header?:string
   className?:string
 }
-const ClientCard = ({name,image,description,header,link,linkText,className}:Props) => {
+const ClientCard = ({name,description,header,link,linkText,className,image}:Props) => {
   return (
-    <section className={cn("bg-white border-none flex flex-col gap-4 p-2 shadow-2xl w-[30%]", className)}>
+    <section className={cn(" border-none flex flex-col gap-4 p-2 shadow-2xl w-[30%]", className)}>
         <div className="flex gap-2">
             <div className="flex w-full justify-between">
                 <div className="flex gap-2 text-center justify-center items-center">

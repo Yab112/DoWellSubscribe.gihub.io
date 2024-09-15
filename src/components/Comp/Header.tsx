@@ -1,6 +1,7 @@
 import { Avatar, AvatarImage } from "../ui/avatar";
 import { AvatarFallback } from "../ui/avatar";
 import { FaCheck } from "react-icons/fa";
+import user from "../../../public/user.jpg"
 import {
   Dialog,
   DialogContent,
@@ -20,7 +21,7 @@ const Header = () => {
           <DialogTrigger className="relative">
             <Avatar>
               {/* Updated image URL */}
-              <AvatarImage src="https://www.example.com/new-avatar-image.jpg" alt="User Avatar" />
+              <AvatarImage src={user} alt="User Avatar" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
           </DialogTrigger>
