@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  
+      - master
 
 jobs:
   deploy:
@@ -24,11 +24,5 @@ jobs:
     - name: Build the project
       run: npm run build
 
-    # Set Git identity with your details
-    - name: Configure Git user
-      run: |
-        git config --global user.name "Yabibal Eshetie"
-        git config --global user.email "eshetieyabibal@gmail.com"
-
     - name: Deploy to GitHub Pages
-      run: npm run deploy
+      run: npx gh-pages -d dist
