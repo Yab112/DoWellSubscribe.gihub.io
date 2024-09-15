@@ -9,4 +9,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // Add the base option
+  base: "/DoWellSubscribe.gihub.io/", 
 });
