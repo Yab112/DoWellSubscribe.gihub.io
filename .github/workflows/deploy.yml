@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout codegit push -u origin main
+
       uses: actions/checkout@v3
 
     - name: Setup Node.js

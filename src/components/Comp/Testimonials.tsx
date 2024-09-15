@@ -67,9 +67,9 @@ const Testimonials = () => {
           <ClientCard
             key={index}
             name="Nardos Teshome"
-            image="/user.jpg"
+            image="./public/user.jpg"
             description="The DoWell Newsletter is the first thing I check in the morning. It's concise, informative, and always highlights the most important news. It’s like having a personal news assistant!"
-            header="It was a very good experience"
+            header="It was a very good experieance"
             link="http://google.com"
             linkText="Read More"
             className={`w-[25%] flex-shrink-0 transition-transform ${

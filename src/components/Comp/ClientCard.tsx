@@ -16,7 +16,7 @@ const ClientCard = ({name,image,description,header,link,linkText,className}:Prop
         <div className="flex gap-2">
             <div className="flex w-full justify-between">
                 <div className="flex gap-2 text-center justify-center items-center">
-                    <img src={image} alt={name} className="w-16 h-16 rounded-full object-cover" />
+                    <img src={image} alt={name} className="w-16 h-16 rounded-full border border-teal-100 object-cover" />
                     <p className="text-[10px] text-slate-600 text-center font-bold">{name}</p>
                 </div>
                 <div className="gap-1 hidden md:flex md:gap-0 w-10 lg:w-20 align-end">

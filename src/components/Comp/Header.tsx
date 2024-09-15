@@ -12,14 +12,15 @@ import {
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center border-slate-300 p-4 ">
+    <div className="flex justify-between items-center border-slate-300 p-4">
       <h1 className="text-2xl font-semibold sm:dowellText">DoWell Newsletter</h1>
       <div className="flex gap-4 items-center">
-        <h1 className=" text-xl  font-bold text-black">Yabibal E.</h1>
+        <h1 className="text-xl font-bold text-black">Yabibal E.</h1>
         <Dialog>
           <DialogTrigger className="relative">
             <Avatar>
-              <AvatarImage src="/user.jpg" alt="@shadcn" />
+              {/* Updated image URL */}
+              <AvatarImage src="https://www.example.com/new-avatar-image.jpg" alt="User Avatar" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
           </DialogTrigger>

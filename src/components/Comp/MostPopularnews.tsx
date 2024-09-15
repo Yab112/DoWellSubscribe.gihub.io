@@ -8,8 +8,8 @@ const MostPopularnews = () => {
         <h1 className="hedertext">Most Popular</h1>
         <div className="flex gap-2 items-center ">
           <p className="text-center font-semibold">See all</p>
-          <button className="border-none bg-black text-white p-2 rounded-full">
-            <FaArrowRight />
+          <button className="border-none bg-black p-2 rounded-full">
+            <FaArrowRight className="text-white flex justify-center items-center" />
           </button>
         </div>
       </div>
