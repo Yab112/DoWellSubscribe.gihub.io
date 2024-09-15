@@ -1,5 +1,10 @@
 import { FaArrowRight } from "react-icons/fa";
 import ArticleCard from "./ArticleCard";
+import image1 from "../../../public/img-1.jpg"
+import image2 from "../../../public/img-2.jpg"
+import image3 from "../../../public/img-3.jpg"
+import image4 from "../../../public/img-4.jpg"
+import image5 from "../../../public/img-5.jpg"
 
 const RecentNews = () => {
   return (
@@ -16,7 +21,7 @@ const RecentNews = () => {
       <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 line-between gap-4">
         <div className="flex flex-col gap-2">
           <ArticleCard
-            imageSrc="public\img-3.jpg"
+            imageSrc={image1}
             date="24 Sep, 2024"
             readingTime="4 min to read"
             title="Global Climate Change Initiatives"
@@ -26,7 +31,7 @@ const RecentNews = () => {
           />
           <hr />
           <ArticleCard
-            imageSrc="public\img-1.jpg"
+            imageSrc={image1}
             date="24 Sep, 2024"
             readingTime="4 min to read"
             title="Global Climate Change Initiatives"
@@ -34,7 +39,7 @@ const RecentNews = () => {
             authorName="Windy Bond"
           />
           <ArticleCard
-          imageSrc="public\img-2.jpg"
+          imageSrc={image3}
              date="24 Sep, 2024"
             readingTime="4 min to read"
             title="Global Climate Change Initiatives"
@@ -45,7 +50,7 @@ const RecentNews = () => {
         </div>
         <div className="flex flex-col  p-4 w-full mt-10">
           <ArticleCard
-          imageSrc="public\img-3.jpg"
+          imageSrc={image4}
             date="24 Sep, 2024"
             readingTime="4 min to read"
             title="Global Climate Change Initiatives"
@@ -53,7 +58,7 @@ const RecentNews = () => {
             authorName="Windy Bond"
           />
           <ArticleCard
-          imageSrc="public\img-1.jpg"
+          imageSrc={image1}
             date="24 Sep, 2024"
             readingTime="4 min to read"
             title="Global Climate Change Initiatives"
@@ -63,7 +68,7 @@ const RecentNews = () => {
         </div>
         <div className="flex flex-col gap-2">
           <ArticleCard
-          imageSrc="public\img-2.jpg"
+          imageSrc={image5}
             date="24 Sep, 2024"
             readingTime="4 min to read"
             title="Global Climate Change Initiatives"
@@ -71,7 +76,7 @@ const RecentNews = () => {
             authorName="Windy Bond"
           />
           <ArticleCard
-          imageSrc="public\img-3.jpg"
+          imageSrc={image1}
             date="24 Sep, 2024"
             readingTime="4 min to read"
             title="Global Climate Change Initiatives"
@@ -79,7 +84,7 @@ const RecentNews = () => {
             authorName="Windy Bond"
           />
           <ArticleCard
-            imageSrc="public\img-1.jpg"
+            imageSrc={image1}
             date="24 Sep, 2024"
             readingTime="4 min to read"
             title="Global Climate Change Initiatives"
